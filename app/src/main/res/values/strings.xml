@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BluetoothDemo</string>
+    <string name="bluetooth_not_supported">不支持蓝牙设备</string>
+    <string name="disconnect_bluetooth_service_success_text">断开蓝牙设备成功</string>
+    <string name="find_bluetooth_service_success_text">找到蓝牙设备成功</string>
+    <string name="bluetooth_not_support_ble">您的蓝牙设备不支持ble</string>
+    <string name="your_sn_invalid_text">无效的sn编号</string>
+
+
+</resources>

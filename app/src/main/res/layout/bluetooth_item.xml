@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5.0"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dv_name"
+            android:layout_weight="1"
+            android:layout_marginLeft="7dp"
+            android:text=""
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/dv_mac"
+            android:layout_marginLeft="7dp"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_link"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="连接"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_history"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="历史数据"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_now"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="实时数据"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_dis"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="断开"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
